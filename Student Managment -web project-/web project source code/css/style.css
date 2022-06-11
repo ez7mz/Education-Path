@@ -1,0 +1,380 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #41436A;
+}
+
+#header-nav {
+	background-color: #974063;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url("../images/logo.png") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Macondo', cursive;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin bottom: 0;
+	line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #fff;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #F54768;
+	border-radius: 25px;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #41436A;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+/*## End Header ##*/
+
+
+/*## Home Page ##*/
+
+#add-tile, #about-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #974063;
+	overflow: hidden;
+}
+
+#add-tile:hover, #about-tile:hover{
+	box-shadow: 0 1px 5px 1px #f54768;
+}
+
+#add-tile {
+	background: url("../images/add-title.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#about-tile {
+	background: url("../images/about-title.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#add-tile span, #about-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.65;
+}
+
+/*## End of Home page ##*/
+
+/*## menu Page ##*/
+.category-tile {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 190px;
+	margin: 0 auto 15px;
+}
+
+
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.65;
+}
+
+.category-tile img {
+	background-size: cover;
+}
+
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #ccc;
+}
+
+.error {
+	margin-top: 5px;
+	font-size: 12px;
+	color: red;
+	background-color: white;
+	border-radius: 5px;
+	width: 100%;
+	height: 30px;
+	opacity: 0.7;
+	padding: 5px;
+}
+
+.jumbotron {
+	border: 2px solid #F54768;
+	background-color: #974063;
+	box-shadow: 0 1px 5px 1px #F54768;
+}
+
+.jumbotron p {
+	font-size: 2.5em;
+}
+
+#forme {
+	background-color: #974063;
+	width: 100%;
+	border: 2px solid #F54768;
+	padding: 20px 25%;
+}
+
+#content {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#logo-ensa {
+	float: left;
+}
+
+input {
+	color: black;
+}
+
+input[type=submit]{
+	width: 150px;
+    cursor: pointer;
+    padding: 7px;
+    margin-top: 10px;
+    border: 2px solid #41436A;
+    background-color: #702547;
+    border-radius: 5px;
+    color: #fff;
+}
+
+input[type=submit]:hover {
+	background-color: #F54768;
+	border-radius: 15px;
+}
+
+label {
+	margin-top: 10px;
+}
+
+.form-control {
+	border: 1px solid #F54768;
+}
+
+legend {
+	color: #fff;
+}
+
+#title {
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+/* footer */
+.panel-footer {
+	color: white;
+	width: 100%;
+	font-size: 1.2em;
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+
+/*## End Footer ##*/
+
+
+/*====================== Media ===========================*/
+@media (min-width: 1200px) {
+	.navbar-brand h1 {
+		margin-top: 25px;
+	}
+
+	#nav-list {
+		margin-top: 30px;
+	}
+
+	#title {
+		font-size: 36px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#logo-img {
+		background: url("../images/logo-md.png") no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+
+	#title {
+		font-size: 28px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#logo-img {
+		background: url("../images/logo-sm.png") no-repeat;
+		width: 60px;
+		height: 60px;
+		margin: 2px 2px 2px 0;
+	}
+
+	#title {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: 0.6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img {
+		height: 20px;
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+	}
+
+	#title {
+		font-size: 18px;
+	}
+
+}
+
+@media (max-width: 479px) {
+	/*Header*/
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	/*End Header*/
+
+	/*Home Page*/
+	#add-tile, #about-tile {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+
+	/*  */
+	.col-xxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+
+	span#title.title {
+		margin-left: 25%;
+		font-size: 12px;
+	}
+
+	#title {
+		font-size: 12px;
+	}
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+td {
+	text-align: center;
+	padding: 10px;
+}
+
+a.link {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.link:hover {
+	color: #F54768;
+}
