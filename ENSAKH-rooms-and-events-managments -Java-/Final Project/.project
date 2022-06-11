@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Final Project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/MainInterfaces/help.txt</name>
+			<type>1</type>
+			<location>D:/JAVA PROJECT/help.txt</location>
+		</link>
+		<link>
+			<name>src/MainInterfaces/icons</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/src/JAVA%20PROJECT/icons</locationURI>
+		</link>
+		<link>
+			<name>src/MainInterfaces/icons/ensa.png</name>
+			<type>1</type>
+			<location>D:/JAVA PROJECT/icons/1x/ensa.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>

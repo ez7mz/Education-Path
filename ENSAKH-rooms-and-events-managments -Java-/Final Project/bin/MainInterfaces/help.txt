@@ -1,0 +1,20 @@
+## Account Creation :
+	-- user is the Id and the password is the Last name --
+	> Default user : user = 7 || password = ez7mz
+1 - Ask any Member Of Administration to Registre you to have acces to Reservation and Organisation Place 
+		> Ids must be just numbers no letters no special characters.
+		> Age has to be greater than or equal to 18.
+		> You have to be a member Of ENSA Khouribga.
+
+## Salle reservation :
+	> You have to be already registred in School Data Base.
+	> Your Login is Your Id and your Password is Your name with the First letter in uppercase.
+	> you can't reserve a salle in a date that is already reserved in.
+	> you can't Cancel other reservation just yours.
+
+## Organisation d'un Evenment
+	> Same thing like Salle reservations.
+
+## If you have an Error with Login information please contact the Administration to give you the correct Login and password.
+	> contact : mesrarhamza48@gmail.com
+	> contact : aminebien@gmail.com	
